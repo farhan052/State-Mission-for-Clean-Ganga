@@ -18,13 +18,9 @@ import Image from 'next/image'
 const products = [
   { name: 'Dashboard', description: 'Get a better understanding of your traffic', href: '/dashboard', icon: ChartPieIcon },
   { name: 'about', description: 'Speak directly to your customers', href: '/dashboard/about', icon: FingerPrintIcon },
-//   { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-//   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-//   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+
 ]
-const callsToAction = [
-  
-]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -98,18 +94,7 @@ export default function Example() {
                     </div>
                   ))}
                 </div>
-                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                    >
-                      <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                      {item.name}
-                    </a>
-                  ))}
-                </div>
+                
               </Popover.Panel>
             </Transition>
           </Popover>
@@ -160,7 +145,7 @@ export default function Example() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products].map((item) => (
                            
 
                           <Disclosure.Button
