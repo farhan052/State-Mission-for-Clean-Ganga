@@ -10,11 +10,11 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-24">
     
       <Link href="/dashboard">Dashboard</Link>
-      <div className='grid'>
-       <h3 className='my-3 h3 mx-auto'>{count}</h3>
+      <div className='grid bg-slate-200 border-spacing-3'>
+       <h3 className='my-3 h3 bg-white mx-auto'>{count}</h3>
        <div className='flex gap-2'>
-        <div className='mx-1'><Button onClick={()=> setcount(count-1)} >- Decrement</Button></div>
-        <div><Button onClick={()=>setcount(count+1)}>+ Increment</Button></div>
+        <div className='mx-1 bg-red-400 font-bold'><Button onClick={()=> setcount(count-1)} >- Decrement</Button></div>
+        <div><Button className='bg-blue-100 font-bold' onClick={()=>setcount(count+1)}>+ Increment</Button></div>
        </div>
 
       </div>
