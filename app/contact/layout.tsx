@@ -1,11 +1,11 @@
 import { Metadata } from "next/dist/lib/metadata/types/metadata-interface"
 
 export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'Dashboard',
+  title: 'Contact us',
+  description: 'Contact',
 }
 
-export default function DashboardLayout({
+export default function ContactLayout({
     children, // will be a page or nested layout
   }: {
     children: React.ReactNode
