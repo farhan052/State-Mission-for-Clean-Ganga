@@ -13,7 +13,7 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import Image from 'next/image'
-import { PlayArrowOutlined } from '@mui/icons-material'
+
 
 const products = [
   { name: 'Dashboard', description: 'Get a better understanding of your traffic', href: '/dashboard', icon: ChartPieIcon },
