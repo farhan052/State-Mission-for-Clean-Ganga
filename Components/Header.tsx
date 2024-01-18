@@ -13,7 +13,7 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import Image from 'next/image'
-
+import '@/style/globals.css'
 
 const products = [
   { name: 'Dashboard', description: 'Get a better understanding of your traffic', href: '/dashboard', icon: ChartPieIcon },
@@ -33,7 +33,7 @@ export default function Example() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="/contact" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Contact us</span>
             <Image
               src="/vercel.svg"
