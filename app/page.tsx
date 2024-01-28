@@ -26,7 +26,7 @@ export default function Home() {
       <PopularClients />
       <ContactForm />
       <Footer />
-    <main className="flex min-h-screen flex-col items-center ">
+    {/* <main className="flex min-h-screen flex-col items-center ">
   
    
       <Link href="/dashboard">Dashboard</Link>
@@ -38,7 +38,7 @@ export default function Home() {
        </div>
 
       </div>
-    </main>
+    </main> */}
   </>
   )
 }
