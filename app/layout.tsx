@@ -17,7 +17,8 @@ weight: ["300", "400", "500", "700", "900"],
    export const metadata: Metadata = {
     title: "Farhanullah Portfolio Page",
     description:
-      "Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.",
+      "Introducing React Developer Portfolio",
+      
   };
   
 export default function RootLayout({
@@ -31,10 +32,10 @@ export default function RootLayout({
       <head>
         <script
           defer
-          data-site="YOUR_DOMAIN_HERE"
+          data-site="assigment"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
-        {/* <link rel="shortcut icon" href="/favicon.png" type="image/png" /> */}
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={inter.className}>
         <Layout>

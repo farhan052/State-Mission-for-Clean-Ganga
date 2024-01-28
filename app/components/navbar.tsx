@@ -5,6 +5,7 @@ import {
   Button,
   IconButton,
   Typography,
+  
 } from "@material-tailwind/react";
 import {
   RectangleStackIcon,
@@ -14,6 +15,7 @@ import {
   XMarkIcon,
   Bars3Icon,
 } from "@heroicons/react/24/solid";
+
 
 const NAV_MENU = [
   {
@@ -67,11 +69,13 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar placeholder='' shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <MTNavbar placeholder='' shadow={false} fullWidth className="border-b-2 py-3 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
-        <Typography placeholder='' color="blue-gray" className="text-lg font-bold">
+      
+        <Typography placeholder='' color="red" className="text-lg text-black font-bold">
           Mohd Farhanullah
         </Typography>
+          <hr  className="rotate-90 text-black"  />
         <ul className=" hidden items-center gap-8 pb-3 lg:flex">
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
@@ -112,9 +116,9 @@ export function Navbar() {
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
             <Button placeholder='' variant="text">Sign In</Button>
-            <a href="" target="_blank">
+            {/* <a href="" target="_blank">
               <Button placeholder='' color="gray">blocks</Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </Collapse>
