@@ -21,7 +21,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
+            I&apos;m Mohd FarhanUllah, a passionate  Mern Stack Developer developer based in India. Here,
             you&apos;ll get a glimpse of my journey in the world of web
             development, where creativity meets functionality.
           </Typography>
@@ -41,11 +41,11 @@ function Hero() {
               </Button>
             </div>
           </div>
-          <Typography placeholder='' variant="small" className="font-normal !text-gray-500">
+          <Typography placeholder='' variant="small" className="font-normal !text-gray-500 ">
             Read my{" "}
-            <a href="#" className="font-medium underline transition-colors">
+            {/* <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
-            </a>
+            </a> */}
           </Typography>
         </div>
         <Image

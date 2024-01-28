@@ -1,4 +1,4 @@
-import Projects from "../Components/projects";
+import Projects from "../Component/projects";
 
 
 // `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
