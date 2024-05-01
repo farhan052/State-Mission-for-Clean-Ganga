@@ -31,8 +31,8 @@ const PROJECTS = [
   },
   {
     img: "/image/blog2.svg",
-    title: "Landing Page Development",
-    desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
+    title: "Search Engine Optimization",
+    desc: "",
   },
   {
     img: "/image/blog3.svg",
@@ -52,7 +52,7 @@ export function Projects() {
       <div className="container mx-auto mb-20 text-center">
         <Typography
         placeholder='' variant="h2" color="blue-gray" className="mb-4">
-          My Projects
+         Our Services
         </Typography>
         <Typography
         placeholder=''

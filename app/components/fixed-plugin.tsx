@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 
 export function FixedPlugin() {
   return (
-    <a href="https://wa.me/+918957065208/?text=I'm%20inquiring%20about%20the%20apartment%20listing" target="_blank">
+    <a href="https://wa.me/+918957065208/?text=I'm%20Inquiring%20abot%20Software%20Services" target="_blank">
       <Button
       placeholder=''
         color="white"

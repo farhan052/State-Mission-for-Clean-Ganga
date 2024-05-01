@@ -16,7 +16,7 @@ import Image from 'next/image'
 import '@/style/globals.css'
 
 const products = [
-  { name: 'Dashboard', description: 'Get a better understanding of your traffic', href: '/dashboard', icon: ChartPieIcon },
+  { name: 'Home', description: 'Get a better understanding of your traffic', href: '/', icon: ChartPieIcon },
   { name: 'about', description: 'Speak directly to your customers', href: '/dashboard/about', icon: FingerPrintIcon },
 
 ]

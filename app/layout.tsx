@@ -5,7 +5,7 @@ import '@/style/globals.css'
 
 
 import Example from '@/app/Component/Header'
-import { FixedPlugin, Layout } from './components'
+import { FixedPlugin, Footer, Layout, Navbar } from './components'
 // 
 const inter = Roboto({
 subsets :['latin'],
@@ -15,9 +15,9 @@ weight: ["300", "400", "500", "700", "900"],
    })
 
    export const metadata: Metadata = {
-    title: "Farhanullah Portfolio Page",
+    title: "MFU Technology",
     description:
-      "Introducing React Developer Portfolio",
+      " ",
       
   };
   
@@ -30,18 +30,20 @@ export default function RootLayout({
     
     <html lang="en">
       <head>
-        <script
+        {/* <script
           defer
           data-site="assigment"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
-        ></script>
+        ></script> */}
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
       <body className={inter.className}>
-        <Layout>
+     
+        <Navbar/>
           {children}
           <FixedPlugin />
-        </Layout>
+          <Footer/>
+       
       </body>
     </html>
   )

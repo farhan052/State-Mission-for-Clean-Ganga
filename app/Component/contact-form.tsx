@@ -43,19 +43,19 @@ export function ContactForm() {
                 Fill up the form and our Team will get back to you within 24
                 hours.
               </Typography>
-              <div className="flex gap-5">
+              {/* <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography
                 placeholder=''
                variant="h6" color="white" className="mb-2">
                   +1(424) 535 3523
                 </Typography>
-              </div>
+              </div> */}
               <div className="flex my-2 gap-5">
                 <EnvelopeIcon className="h-6 w-6 text-white" />
                 <Typography
                 placeholder='' variant="h6" color="white" className="mb-2">
-                  hello@mail.com
+                  mfu7379@gmail.com
                 </Typography>
               </div>
               <div className="flex mb-10 gap-5">

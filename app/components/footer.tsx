@@ -11,17 +11,11 @@ export function Footer() {
           <Typography 
           placeholder=''
           className="text-center font-normal !text-gray-700">
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Material Tailwind
-            </a>{" "}
-            by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
-            </a>
-            .
+            &copy; {CURRENT_YEAR} All Right Reserved by MFU Technology{" "}
+            
+            
           </Typography>
-          <ul className="flex gap-8 items-center">
+          {/* <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link}>
                 <Typography
@@ -38,7 +32,7 @@ export function Footer() {
             <Button
             placeholder=''
              color="gray">subscribe</Button>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>

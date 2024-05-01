@@ -14,9 +14,9 @@ function Hero() {
             color="blue-gray"
             className="mb-4 lg:text-5xl !leading-tight text-3xl"
           >
-            Welcome to my Web <br /> Development Portofolio!
+            Welcome to my MFU <br /> Technology!
           </Typography>
-          <Typography
+          {/* <Typography
           placeholder='h2'
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
@@ -34,7 +34,7 @@ function Hero() {
               Your email
             </Typography>
             <div className="mb-2 flex w-full flex-col gap-4 md:w-10/12 md:flex-row">
-              {/* @ts-ignore */}
+          
               <Input color="gray" label="Enter your email" size="lg" />
               <Button placeholder='' color="gray" className="w-full px-4 md:w-[12rem]">
                 require offer
@@ -43,10 +43,10 @@ function Hero() {
           </div>
           <Typography placeholder='' variant="small" className="font-normal !text-gray-500 ">
             Read my{" "}
-            {/* <a href="#" className="font-medium underline transition-colors">
+            <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
-            </a> */}
-          </Typography>
+            </a>
+          </Typography> */}
         </div>
         <Image
           width={1024}

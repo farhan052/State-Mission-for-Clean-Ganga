@@ -14,22 +14,33 @@ import {
   Squares2X2Icon,
   XMarkIcon,
   Bars3Icon,
+  HomeIcon,
+  PhoneIcon,
 } from "@heroicons/react/24/solid";
+import { LanguageIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 
 const NAV_MENU = [
   {
-    name: "Page",
-    icon: RectangleStackIcon,
+    name: "Home",
+    icon: HomeIcon,
+    href:'/'
   },
   {
-    name: "Account",
-    icon: UserCircleIcon,
-  },
-  {
-    name: "Docs",
+    name: "About",
     icon: CommandLineIcon,
-    href: "",
+    href:'/about'
+  },
+  {
+    name: "Services",
+    icon: LanguageIcon,
+    href: "/services",
+  },
+  {
+    name: "Contact Us",
+    icon: PhoneIcon,
+    href: "/contact",
   },
 ];
 
@@ -41,17 +52,19 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
+      <Link href={`${href}`}>
       <Typography
       placeholder=''
-        as="a"
-        href={href || "#"}
-        target={href ? "_blank" : "_self"}
-        variant="paragraph"
-        color="gray"
-        className="flex items-center gap-2 font-medium text-gray-900"
+      // as="a"
+      // href={href || "#"}
+      // target={href ? "_blank" : "_self"}
+      variant="paragraph"
+      color="gray"
+      className="flex items-center gap-2 font-medium text-gray-900"
       >
         {children}
       </Typography>
+        </Link>
     </li>
   );
 }
