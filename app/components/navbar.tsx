@@ -86,7 +86,7 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
       
         <Typography placeholder='' color="red" className="text-lg text-black font-bold">
-          Mohd Farhanullah
+          MFU Technology
         </Typography>
           <hr  className="rotate-90 text-black"  />
         <ul className=" hidden items-center gap-8 pb-3 lg:flex">
